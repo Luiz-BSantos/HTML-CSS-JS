@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <input type="text" id="visor" class="visor" readonly>
+            <div class="botoes">
+                <button onclick="limparVisor()">C</button>
+                <button onclick="limparMemoria()">MC</button>
+                <button onclick="recuperarMemoria()">MR</button>
+                <button onclick="adicionarMemoria()">M+</button>
+                <button onclick="adicionarNumero(7)">7</button>
+                <button onclick="adicionarNumero(8)">8</button>
+                <button onclick="adicionarNumero(9)">9</button>
+                <button onclick="adicionarOperador('÷')">÷</button>
+                <button onclick="adicionarNumero(4)">4</button>
+                <button onclick="adicionarNumero(5)">5</button>
+                <button onclick="adicionarNumero(6)">6</button>
+                <button onclick="adicionarOperador('x')">x</button>
+                <button onclick="adicionarNumero(1)">1</button>
+                <button onclick="adicionarNumero(2)">2</button>
+                <button onclick="adicionarNumero(3)">3</button>
+                <button onclick="adicionarOperador('-')">-</button>
+                <button onclick="adicionarNumero(0)">0</button>
+                <button onclick="alterarCor()">Trocar Cor</button>
+                <button onclick="calcular()">=</button>
+                <button onclick="adicionarOperador('+')">+</button>
+            </div>
+            <button onclick="mostrar()" style="margin: 5px;">Mostrar/Nomes</button>
+            <div id="nomes" class="escondido">
+                <p>Aluno 1: Luiz Antonio Barbosa dos Santos</p>
+            </div>
+        </div>
+        <div class="historico">
+            <h2>Histórico</h2>
+            <p id="historico"></p>
+            <button onclick="limparHistorico()">Limpar Histórico</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

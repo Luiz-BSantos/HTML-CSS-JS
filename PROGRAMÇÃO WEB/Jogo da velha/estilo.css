@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+.quadrado{
+    display: inline-block;
+    width: 50px;
+    margin: 5px;
+    padding: 40px;
+    text-align: center;
+    font-size: 60px;
+    background-color: #AFEEEE;
+    color: #eee;
+}
+.jogador{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #eee;
+}

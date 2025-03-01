@@ -1,0 +1,17 @@
+#menu{
+    background-color: gray;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+#principal{
+    background-color: blue;
+    text-align: center;
+    font-family: Verdana;
+}
+
+#rodape{
+    background-color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,112 @@
+<html>
+<head>
+  <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+    }
+
+    body {  
+        display: flex;
+    }   
+
+    #calculadora {
+        width: 300px;
+        height: 420px;
+        border: 1px solid black;
+        margin: auto;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);      
+    }
+
+    #visor {
+        width: 260px;
+        height: 40px;
+        border: 1px solid gray;
+        margin: 10px;
+        padding: 5px;
+        font-size: 24px;
+        text-align: right;
+        border-radius: 5px;
+        background-color: skyblue;
+    }
+
+    .teclas {
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        margin: 8px;
+        padding: 10px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        
+    }
+
+    .teclas:hover {
+        background-color: lightgray;
+    }
+    .NOME
+    {
+      width: 260px;
+        height: 40px;
+        border: 1px solid gray;
+        margin: 10px;
+        padding: 5px;
+        font-size: 13px;
+        text-align: left;
+        border-radius: 5px;
+        background-color: skyblue;
+        font-style: bold;
+    }
+  
+      
+  </style>
+</head>
+<body>
+  <div id="calculadora">
+    <div id="visor">0</div>
+    <br>
+    <div>
+      
+	  <div class="teclas" style="background-color: cyan;">C</div>
+    <div class="teclas" style="background-color: dimgray; color: white;" class="branca">7</div>
+    <div class="teclas" style="background-color: dimgray; color: white;" class="branca">8</div>
+    <div class="teclas" style="background-color: dimgray; color: white;" class="branca">9</div>
+    </div>
+
+  
+    <div>
+      <div class="teclas" style="background-color: blue; color: white;">+</div>
+	  <div class="teclas" style="background-color: darkgray;">4</div>
+    <div class="teclas" style="background-color: darkgray;">5</div>
+    <div class="teclas" style="background-color: darkgray;">6</div>
+    </div>
+
+    <div>
+      <div class="teclas" style="background-color: red; color: white">-</div>
+	  <div class="teclas" style="background-color: lightgray;">1</div>
+    <div class="teclas" style="background-color: lightgray;">2</div>
+    <div class="teclas" style="background-color: lightgray;">3 </div>
+    </div>
+
+    <div>     
+      <div class="teclas" style="background-color: skyblue;">=</div>
+      <div class="teclas">0</div>
+      <div class="teclas">.</div>
+    </div>
+
+    <div class="NOME">
+      <p>Aluno:Luiz Antonio Barbosa dos Santos<br> RA:52824</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
